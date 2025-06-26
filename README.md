@@ -62,7 +62,7 @@
 
 用户端，直接使用	 
 
-详见：https://gitee.com/aiqianqi/thousand-enterprises-ai.wiki.git
+详见：https://gitee.com/aiqianqi/thousand-enterprises-ai/wikis/%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C
 
 
 #### 合作对象
