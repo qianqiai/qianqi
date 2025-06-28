@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: remote-chat-model
+
+  ai:
+    dashscope:
+      api-key: { 阿里云百炼平台申请的API Key }
+    vectorstore:
+      milvus:
+        client:
+          host: localhost
+          port: 19530
+          username: root
+          password: milvus
+        databaseName: default
+        collectionName: alibaba
+        embeddingDimension: 1536
+        indexType: IVF_FLAT
+        metricType: COSINE
+
+server:
+  port: 1717
+
+
+zilliz:
+  username: root
+  password: milvus
+  endpoint: http://localhost:19530
